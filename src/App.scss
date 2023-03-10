@@ -1,0 +1,94 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button{
+  margin: 0.5em;
+}
+
+.generalDivCss{
+    border: solid 1px;
+  padding: 0.6em;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+
+//* List component
+
+.divContainerList{
+
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  
+
+  .containerParagraphs{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   width: 100%;
+   gap: 1em;
+   justify-content: center;
+   margin: 1em 0.5em 0.5em;
+  }
+}
+
+
+
+.divLink{
+  width: 8em;
+  margin-bottom: 1em;
+  
+}
+
+#FormHome{
+  width: 30em;
+  height: 15em;
+ 
+
+   input {
+    outline: none;
+    border: 1px solid #ccc;
+  }
+
+  input.inputErr:focus {
+    outline: 2px solid red ;
+    border: 1px solid red ;
+  }
+
+  input.inputGreen:focus{
+    outline: 2px solid green ;
+    border: 1px solid green ;
+  }
+
+  & .dError{
+    margin-top: 0.5em;
+    color: red;
+  }
+
+   & .dErrorHidden{
+    margin-top: 0.5em;
+    color: red;
+    visibility: hidden;
+
+  }
+
+}
+
+//* InfoUser
+
+.divInfo{
+ border: solid 2px;
+ border-radius: 50px;
+ margin: 2em 0em;
+ padding: 3em 0em;
+ 
+ & span {
+  color: blue;
+ }
+}
